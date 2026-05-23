@@ -44,7 +44,6 @@ dependencies:
   shimmer_animation: ^2.2.2+1
   flutter_screenutil: ^5.9.3
   flutter_localization: ^0.4.0
-  shared_preferences: ^2.5.5
   provider: ^6.1.5+1
   share_plus: ^13.1.0
 

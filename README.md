@@ -1,17 +1,71 @@
-# technical_test_propnext
+<div align="center">
+  
+    <div>
+            <h3><b>Technical Test Porpnext</b></h3>
+            <p><i>Just do it</i></p>
+    </div>      
+</div>
 
-A new Flutter project.
+## Getting started
 
-## Getting Started
+**Prerequisites :**
 
-This project is a starting point for a Flutter application.
+- Flutter SDK : 3.41.4
+- IDE of your choice (e.g., VS Code, or Android Studio)
 
-A few resources to get you started if this is your first Flutter project:
+**Installation :**
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+1. Clone the repository
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+$ git clone https://github.com/Galuhdap/technical_test_propnext
+```
+
+2. Navigate to project directory
+
+```bash
+$ cd technical_test_propnext
+```
+
+3. Install Dependencies
+
+```bash
+$ flutter pub get
+```
+
+**Asset Generator :**
+
+- add in dev_dependencies
+  - build_runner
+  - flutter_gen_runner
+
+- when you add image static or icon just run
+  - dart run build_runner build
+
+**Launch Settings**
+
+1.  **VS Code**
+
+            {
+                "version": "0.2.0",
+                "configurations": [
+                  {
+                    "name": "Dev TTPN",
+                    "type": "dart",
+                    "request": "launch",
+                    "program": "lib/main_dev.dart",
+                    "args": ["--flavor", "dev"]
+                  },
+                  {
+                      "name": "TTPN",
+                      "type": "dart",
+                      "request": "launch",
+                      "program": "lib/main_prod.dart",
+                      "args": ["--flavor", "prod"]
+                  }
+                ]
+           }
+
+2.  **Android Studio**
+
+`--flavor prod --no-enable-impeller`
