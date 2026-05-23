@@ -2,14 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Dev TTB",
+      "name": "Dev TTPN",
       "type": "dart",
       "request": "launch",
       "program": "lib/main_dev.dart",
       "args": ["--flavor", "dev"]
     },
     {
-      "name": "TTB",
+      "name": "TTPN",
       "type": "dart",
       "request": "launch",
       "program": "lib/main_prod.dart",
